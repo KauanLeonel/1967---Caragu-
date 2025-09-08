@@ -1,6 +1,4 @@
-
-spd = 10 //Velocidade
-grv = 0.5; //Gravidade
-hspd = 0; //Velocidade horizontal
-vspd = 0; //velocidade vertical
+velocidade = 10;
+velh = 0;
+velv = 0;
 global.controle = true;

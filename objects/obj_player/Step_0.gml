@@ -1,41 +1,31 @@
-#region CONTROLES
-key_jump  = keyboard_check(ord("W")); // Pular é W
-key_right = keyboard_check(ord("D")); // Direita é D
-key_left  = keyboard_check(ord("A")); // Esquerda é A
-#endregion
+//Define as teclas para movimentação, retornando uma função de 0 ou 1, pressionado ou não
+var direita = keyboard_check(ord("D"))
+var esquerda = keyboard_check(ord("A"))
+var cima = keyboard_check(ord("W"))
+var baixo = keyboard_check(ord("S"))
 
-#region Movimentação
 
-if(global.controle == true){
-var move = key_right - key_left; // 1 (direita), -1 (esquerda), 0 (parado)
-hspd = move * spd; // velocidade horizontal
-vspd += grv; // gravidade
-
-if (hspd != 0) image_xscale = sign(hspd);
-
-// COLISÃO HORIZONTAL
-if (place_meeting(x + hspd, y, obj_bloco1)) {
-    while (!place_meeting(x + sign(hspd), y, obj_bloco1)) {
-        x += sign(hspd);
-    }
-    hspd = 0; // CORRETO: para movimento horizontal
+// Com base nas funções acima, define para qual direção vai vezes a velocidade	
+velh = (direita - esquerda) * velocidade;
+velv = (baixo - cima) * velocidade;
+	
+	
+//COLISÃO HORIZONTAL, verifica se está colidindo com algum bloco, se sim, não move	
+repeat(abs(velh)){ //Faz pixel por pixel, então o repeat serve para fazer até terminar a veocidade
+	if(!place_meeting(x + sign(velh), y, obj_bloco_pai)){
+		x += sign(velh)
+	} else{
+		velh = 0;
+	}
 }
 
-x += hspd;
 
-// COLISÃO VERTICAL
-if (place_meeting(x, y + vspd, obj_bloco1)) {
-    while (!place_meeting(x, y + sign(vspd), obj_bloco1)) {
-        y += sign(vspd);
-    }
-    vspd = 0;
+//COLISÃO VERTICAL, verifica se está colidindo com algum bloco, se sim, não move	
+repeat(abs(velv)){
+	if(!place_meeting(x, y  + sign(velv), obj_bloco_pai)){
+		y += sign(velv)
+	} else{
+		velv = 0;	
+	}
 }
 
-y += vspd;
-
-// PULO
-if (place_meeting(x, y + 1, obj_bloco1) && key_jump) {
-    vspd = -16; // Negativo para subir
-}
-}
-#endregion

@@ -25,7 +25,7 @@ if point_in_rectangle(mx, my, x1 - sprw, y1 - sprh, x1 + sprw, y1+ sprh){ //Se o
 	
 	if mouse_check_button_pressed(mb_left){ //Se a pessoa clicou com o botão direito
 		instance_create_layer(0,0, "Instances", obj_fade);
-		room_goto(Room_casa)
+		room_goto(Room_quarto)
 		}
 } else{
 	bscale1 = lerp(bscale1, 1, 0.08);

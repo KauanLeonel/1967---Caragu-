@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bloco1",
+  "%Name":"obj_bloco_pai",
   "eventList":[],
   "managed":true,
-  "name":"obj_bloco1",
+  "name":"obj_bloco_pai",
   "overriddenProperties":[],
   "parent":{
     "name":"Blocks",
     "path":"folders/Objetos/Blocks.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bloco_pai",
-    "path":"objects/obj_bloco_pai/obj_bloco_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_block1",
-    "path":"sprites/spr_block1/spr_block1.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
