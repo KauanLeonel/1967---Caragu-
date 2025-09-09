@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ana",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_par_npc",
+  "eventList":[],
   "managed":true,
-  "name":"obj_ana",
+  "name":"obj_par_npc",
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
@@ -29,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_ana",
-    "path":"sprites/spr_ana/spr_ana.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

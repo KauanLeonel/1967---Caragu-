@@ -29,3 +29,14 @@ repeat(abs(velv)){
 	}
 }
 
+
+#region Diálogo
+if distance_to_object(obj_par_npc) <= 10{
+	if keyboard_check_presses(ord("E")) and global.dialogo == false{
+		var _npc = instance_nearest(x, y, obj_par_npcs);
+		var _dialogo = instance_create_layer(x, y, "Dialogo", obj_dialogo);
+		_dialogo.npc_nome = npc.nome;
+}
+}
+#endregion
+
