@@ -4,7 +4,7 @@ enum Infos{
 	Lado,
 	Nome
 }
-Npc_nome = "";
+npc_nome = "";
 texto_grid = ds_grid_create (4,0);
 
 inicializador = false;
