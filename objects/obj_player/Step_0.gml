@@ -1,3 +1,5 @@
+if(global.controle == true){
+
 //Define as teclas para movimentação, retornando uma função de 0 ou 1, pressionado ou não
 var direita = keyboard_check(ord("D"))
 var esquerda = keyboard_check(ord("A"))
@@ -40,3 +42,4 @@ if distance_to_object(obj_par_npc) <= 10{
 }
 #endregion
 
+}

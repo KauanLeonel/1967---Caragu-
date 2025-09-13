@@ -1,5 +1,5 @@
 function src_textos(){
-	switch npc_nome{
+	switch (npc_nome){
 	case "Teste":
 		ds_grid_add_text("Primeiro Texto", spr_retrato, 0, "Nome");
 		ds_grid_add_text("Segundo texto", spr_retrato, 0, "Nome");
