@@ -18,7 +18,7 @@ switch(index){
 	case 4:
 	obj_player.x = 2300;
 	obj_player.y = 860;
-	room_goto(Room_rua);
+	room_goto(Room_cozinha);
 	break;
 	case 5:
 	obj_player.x = 2300;

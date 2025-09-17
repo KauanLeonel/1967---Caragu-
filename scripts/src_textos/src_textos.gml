@@ -3,7 +3,19 @@ function src_textos(){
 	case "Teste":
 		ds_grid_add_text("Primeiro Texto", spr_retrato, 0, "Nome");
 		ds_grid_add_text("Segundo texto", spr_retrato, 0, "Nome");
-
+		break;
+	case "Mãe":
+		ds_grid_add_text("Bom dia filho, está tudo bem?", spr_retrato, 0, "Mãe");
+		ds_grid_add_text("Está sim mãe, só tive um sonho ruim?", spr_retrato, 1, "Roberto");
+		ds_grid_add_text("Não se preocupe meu filho, independente do que for mamãe está aqui para cuidar do meu Betinho", spr_retrato, 0, "Mãe");
+		ds_grid_add_text("Agora come logo que a Maria já já está aí para vocês irem para a escola.", spr_retrato, 0, "Mãe");
+		break;
+	case "Prato":
+		ds_grid_add_text("Um prato de tapioca com banana", spr_retrato, 0, "Roberto");
+		break;
+	case "PratoVazio":
+		ds_grid_add_text("Estava delicioso", spr_retrato, 0, "Roberto");
+		break;
 }
 
 

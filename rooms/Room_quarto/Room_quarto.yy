@@ -9,7 +9,6 @@
     {"name":"inst_7C94C7AD","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_6CFB3EA7","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_5A42994B","path":"rooms/Room_quarto/Room_quarto.yy",},
-    {"name":"inst_7F2D828C","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_4EC05E6C","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_387EAE24","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_4AA3A495","path":"rooms/Room_quarto/Room_quarto.yy",},
@@ -19,6 +18,7 @@
     {"name":"inst_6658B21D","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_285342FA","path":"rooms/Room_quarto/Room_quarto.yy",},
     {"name":"inst_5F20367","path":"rooms/Room_quarto/Room_quarto.yy",},
+    {"name":"inst_7F2D828C","path":"rooms/Room_quarto/Room_quarto.yy",},
   ],
   "isDnd":false,
   "layers":[

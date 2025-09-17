@@ -1,3 +1,3 @@
 personagemx= 120;
-personagemy = 890;
-sala = Room_rua;
+personagemy = 800;
+sala = Room_cozinha;
