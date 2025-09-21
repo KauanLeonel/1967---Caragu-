@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_doors",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_mochila",
+  "eventList":[],
   "managed":true,
-  "name":"obj_doors",
+  "name":"obj_mochila",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Objetos/Blocks.yy",
+    "name":"Itens",
+    "path":"folders/Objetos/Itens.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_item_pai",
+    "path":"objects/obj_item_pai/obj_item_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_porta",
-    "path":"sprites/spr_porta/spr_porta.yy",
+    "name":"spr_btn_e",
+    "path":"sprites/spr_btn_e/spr_btn_e.yy",
   },
   "spriteMaskId":null,
   "visible":true,
