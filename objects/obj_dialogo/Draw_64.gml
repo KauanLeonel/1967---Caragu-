@@ -7,7 +7,7 @@ var _c = c_black;
 
 var _sprite = texto_grid[# Infos.Retrato, pagina];
 
-///draw_set_font(ftn_dialogo);
+draw_set_font(ftn_dialogo);
 if (ds_grid_height(texto_grid) > 0) {
 // Fundo do diálogo
 draw_rectangle_color(_xx, _yy, guil, guia, _c, _c, _c, _c, false);

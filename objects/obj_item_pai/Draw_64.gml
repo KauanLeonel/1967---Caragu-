@@ -1,1 +1,0 @@
-draw_sprite_ext(spr_btn_e, 0, x ,y + 50, 1, 1, 0, c_white, 1);

@@ -34,8 +34,8 @@
   ],
   "name":"Room_floresta",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"Parte 2 - Floresta",
+    "path":"folders/Cenas/Parte 2 - Floresta.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -16,6 +16,10 @@ function src_textos(){
 	case "PratoVazio":
 		ds_grid_add_text("Estava delicioso", spr_retrato, 0, "Roberto");
 		break;
+	case "Sonho":
+		ds_grid_add_text("Que sonho estranho... Parecia que o mundo estava caindo... Me deu até ânsia.", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Deixa eu ver que horas são... CARACA, JÁ SÃO QUASE 7:00 HORAS... PRECISO PEGAR AS MINHAS COISAS E IR PARA A ESCOLA", spr_retrato, 0, "Roberto");
+		break;
 }
 
 

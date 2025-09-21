@@ -1,23 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_item_pai",
+  "%Name":"obj_var_global",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_item_pai",
+  "name":"obj_var_global",
   "overriddenProperties":[],
   "parent":{
-    "name":"Itens",
-    "path":"folders/Objetos/Itens.yy",
+    "name":"Player",
+    "path":"folders/Objetos/Player.yy",
   },
-  "parentObjectId":{
-    "name":"obj_par_npc",
-    "path":"objects/obj_par_npc/obj_par_npc.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -34,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_onibus",
-    "path":"sprites/spr_onibus/spr_onibus.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

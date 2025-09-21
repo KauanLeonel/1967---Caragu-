@@ -18,8 +18,8 @@
   ],
   "name":"Room_menu",
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"Parte 0 - Introdução",
+    "path":"folders/Cenas/Parte 0 - Introdução.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

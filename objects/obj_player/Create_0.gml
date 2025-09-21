@@ -4,4 +4,4 @@ velv = 0;
 global.controle = true;
 
 
-global.prato = 0;
+;
