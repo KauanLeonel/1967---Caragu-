@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_main",
-    "path":"sprites/spr_main/spr_main.yy",
+    "name":"spr_roberto_frente",
+    "path":"sprites/spr_roberto_frente/spr_roberto_frente.yy",
   },
   "spriteMaskId":null,
   "visible":true,

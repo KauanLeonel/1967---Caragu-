@@ -31,7 +31,45 @@ repeat(abs(velv)){
 	}
 }
 
+#region Troca de Sprites
+var moving = (velh != 0 || velv != 0);
+ang = point_direction(0, 0, velh, velv);
+ang = (ang + 360) mod 360;
+	
+if (moving) {
+  
 
+    // salva a última direção só quando há movimento
+    last_dir = ang;
+
+}
+else {
+    // parado: usa a última direção
+    ang = last_dir;
+
+    
+}
+
+// ----- Escolher sprite baseado em ang (ou last_dir) -----
+if (ang >= 45 && ang < 135) {
+    sprite_index = moving ? spr_roberto_tras : spr_roberto_tras;
+}
+else if (ang >= 135 && ang < 225) {
+    sprite_index = moving ? spr_roberto_andando_esquerda : spr_roberto_esquerdo;
+}
+else if (ang >= 225 && ang < 315) {
+    sprite_index = moving ? spr_roberto_frente : spr_roberto_frente;
+}
+else if (ang >= 315 || ang < 45) {
+    sprite_index = moving ? spr_roberto_andando_direita : spr_roberto_direito;
+}
+
+
+#endregion
+
+} else {
+	sprite_index = spr_roberto_frente
+}
 #region Diálogo
 if distance_to_object(obj_par_npc) <= 10{
 	if keyboard_check_pressed(ord("E")) and global.dialogo == false{
@@ -41,5 +79,3 @@ if distance_to_object(obj_par_npc) <= 10{
 }
 }
 #endregion
-
-}
