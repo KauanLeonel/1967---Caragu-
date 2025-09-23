@@ -9,9 +9,13 @@ function src_textos(){
 		ds_grid_add_text("Está sim mãe, só tive um sonho ruim?", spr_retrato, 1, "Roberto");
 		ds_grid_add_text("Não se preocupe meu filho, independente do que for mamãe está aqui para cuidar do meu Betinho", spr_retrato, 0, "Mãe");
 		ds_grid_add_text("Agora come logo que a Maria já já está aí para vocês irem para a escola.", spr_retrato, 0, "Mãe");
+		//fazer a verificação para saber se ele já fez a primeira missão
+		array_delete(global.missoes, 0, 1)
+		array_push(global.missoes, ["Tome café da manhã"])
 		break;
 	case "Prato":
 		ds_grid_add_text("Um prato de tapioca com banana", spr_retrato, 0, "Roberto");
+		array_delete(global.missoes, 0, 1)
 		break;
 	case "PratoVazio":
 		ds_grid_add_text("Estava delicioso", spr_retrato, 0, "Roberto");
@@ -19,7 +23,16 @@ function src_textos(){
 	case "Sonho":
 		ds_grid_add_text("Que sonho estranho... Parecia que o mundo estava caindo... Me deu até ânsia.", spr_retrato, 0, "Roberto");
 		ds_grid_add_text("Deixa eu ver que horas são... CARACA, JÁ SÃO QUASE 7:00 HORAS... PRECISO PEGAR AS MINHAS COISAS E IR PARA A ESCOLA", spr_retrato, 0, "Roberto");
+		materiais = 0
+		quant_materiais = 3
+		array_push(global.missoes, ["Coletar materiais escolares", materiais, quant_materiais]);
+		instance_create_layer(155, 381, "Instances", obj_mochila);
+		instance_create_layer(870, 348, "Instances", obj_mochila);
+		instance_create_layer(825, 544, "Instances", obj_mochila);
 		break;
+	case "Falar com a mãe":
+		ds_grid_add_text("Tudo pronto, vou falar com a minha mãe e já saio", spr_retrato, 0, "Roberto");
+	break;
 }
 
 
