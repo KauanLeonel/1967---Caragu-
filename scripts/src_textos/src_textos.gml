@@ -12,13 +12,22 @@ function src_textos(){
 		//fazer a verificação para saber se ele já fez a primeira missão
 		array_delete(global.missoes, 0, 1)
 		array_push(global.missoes, ["Tome café da manhã"])
+		ini_open("Dados.sav")
+			ini_write_string ("Missoes", "Nome_mae", "Mãe2");
+		ini_close();
 		break;
 	case "mae0":
 			ds_grid_add_text("...", spr_retrato, 0, "Mãe");
 	break;
 	case "Prato":
 		ds_grid_add_text("Um prato de tapioca com banana", spr_retrato, 0, "Roberto");
-		array_delete(global.missoes, 0, 1)
+		ini_open("Dados.sav")
+		pode = ini_read_string("Missoes", "Nome_mae", "");
+		ini_close();
+
+		if(pode == "Mãe2"){
+				array_delete(global.missoes, 0, 1)
+		}
 		break;
 	case "PratoVazio":
 		ds_grid_add_text("Estava delicioso", spr_retrato, 0, "Roberto");
@@ -36,6 +45,9 @@ function src_textos(){
 		break;
 	case "Falar com a mãe":
 		ds_grid_add_text("Tudo pronto, vou falar com a minha mãe e já saio", spr_retrato, 0, "Roberto");
+	break;
+	case "Mãe2":
+		ds_grid_add_text("Fiz a tapioca que você gosta", spr_retrato, 0, "Mãe");
 	break;
 }
 
