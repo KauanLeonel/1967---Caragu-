@@ -1,0 +1,1 @@
+	if(file_exists("Dados.sav"))file_delete("Dados.sav");

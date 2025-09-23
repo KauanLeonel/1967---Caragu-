@@ -17,3 +17,8 @@ if (instance_exists(obj_player)) {
     }
 }
 
+ini_open("Dados.sav")
+			progresso = ini_read_real ("Missoes", "Missao1", 0);
+ini_close();
+
+if(progresso == 1) instance_destroy();

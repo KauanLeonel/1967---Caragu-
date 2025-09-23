@@ -9,6 +9,11 @@ if(array_length(global.missoes) !=0){
 		array_delete(global.missoes, 0, 1)
 		var _dialogo = instance_create_layer(x, y, "Instances", obj_dialogo);
 _dialogo.npc_nome = "Falar com a mãe"
+ini_open("Dados.sav")
+	ini_write_real ("Missoes", "Missao1", 1);
+	ini_write_string ("Missoes", "Nome_mae", "Mãe");
+ini_close();
+
 		array_push(global.missoes, ["Falar com a mãe"]);
 	}
 }

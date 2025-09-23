@@ -13,6 +13,9 @@ function src_textos(){
 		array_delete(global.missoes, 0, 1)
 		array_push(global.missoes, ["Tome café da manhã"])
 		break;
+	case "mae0":
+			ds_grid_add_text("...", spr_retrato, 0, "Mãe");
+	break;
 	case "Prato":
 		ds_grid_add_text("Um prato de tapioca com banana", spr_retrato, 0, "Roberto");
 		array_delete(global.missoes, 0, 1)
@@ -26,9 +29,10 @@ function src_textos(){
 		materiais = 0
 		quant_materiais = 3
 		array_push(global.missoes, ["Coletar materiais escolares", materiais, quant_materiais]);
-		instance_create_layer(155, 381, "Instances", obj_mochila);
-		instance_create_layer(870, 348, "Instances", obj_mochila);
-		instance_create_layer(825, 544, "Instances", obj_mochila);
+		ini_open("Dados.sav")
+			ini_write_real ("Missoes", "Missao1", 0);
+		ini_close();
+
 		break;
 	case "Falar com a mãe":
 		ds_grid_add_text("Tudo pronto, vou falar com a minha mãe e já saio", spr_retrato, 0, "Roberto");
