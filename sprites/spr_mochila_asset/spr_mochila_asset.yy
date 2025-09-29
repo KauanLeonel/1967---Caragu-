@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"assets",
-    "path":"folders/Sprites/assets.yy",
+    "name":"quarto",
+    "path":"folders/Sprites/assets/quarto.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

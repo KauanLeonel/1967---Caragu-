@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_cadeira_frente",
+  "%Name":"spr_cadeira_frentec",
   "bboxMode":0,
   "bbox_bottom":22,
   "bbox_left":6,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1839e021-e761-4fc4-aab5-a7fca9e6eaa1","name":"1839e021-e761-4fc4-aab5-a7fca9e6eaa1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"857aa3fa-eea8-44c8-b68c-4cc48a9bf2b7","name":"857aa3fa-eea8-44c8-b68c-4cc48a9bf2b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":24,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"15fdb1a2-6e2c-479c-9570-ff584278a28b","blendMode":0,"displayName":"default","isLocked":false,"name":"15fdb1a2-6e2c-479c-9570-ff584278a28b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a947eab2-e240-48b7-b674-9262a9b60c5e","blendMode":0,"displayName":"default","isLocked":false,"name":"a947eab2-e240-48b7-b674-9262a9b60c5e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_cadeira_frente",
+  "name":"spr_cadeira_frentec",
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"quarto",
-    "path":"folders/Sprites/assets/quarto.yy",
+    "name":"cozinha",
+    "path":"folders/Sprites/assets/cozinha.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_cadeira_frente",
+    "%Name":"spr_cadeira_frentec",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_cadeira_frente",
+    "name":"spr_cadeira_frentec",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1839e021-e761-4fc4-aab5-a7fca9e6eaa1","path":"sprites/spr_cadeira_frente/spr_cadeira_frente.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"444d0c88-4eda-4954-b9d4-b569573dfdb7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"857aa3fa-eea8-44c8-b68c-4cc48a9bf2b7","path":"sprites/spr_cadeira_frentec/spr_cadeira_frentec.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d905a51f-879b-4b09-9acf-30c3964b57a7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
