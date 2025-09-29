@@ -6,10 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_E19E088","path":"rooms/Room_cozinha/Room_cozinha.yy",},
-    {"name":"inst_35AB5F44","path":"rooms/Room_cozinha/Room_cozinha.yy",},
-    {"name":"inst_3D00B8B1","path":"rooms/Room_cozinha/Room_cozinha.yy",},
-    {"name":"inst_523ACDE2","path":"rooms/Room_cozinha/Room_cozinha.yy",},
     {"name":"inst_69FED618","path":"rooms/Room_cozinha/Room_cozinha.yy",},
     {"name":"inst_D2E382D","path":"rooms/Room_cozinha/Room_cozinha.yy",},
     {"name":"inst_6010E89E","path":"rooms/Room_cozinha/Room_cozinha.yy",},
@@ -18,10 +14,6 @@
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_E19E088","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E19E088","objectId":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.0,"scaleY":1.0,"x":720.0,"y":992.0,},
-        {"$GMRInstance":"v2","%Name":"inst_35AB5F44","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35AB5F44","objectId":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":15.5,"x":0.0,"y":496.0,},
-        {"$GMRInstance":"v2","%Name":"inst_3D00B8B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D00B8B1","objectId":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":15.5,"x":1440.0,"y":480.0,},
-        {"$GMRInstance":"v2","%Name":"inst_523ACDE2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_523ACDE2","objectId":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":24.0,"scaleY":1.0,"x":704.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_69FED618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69FED618","objectId":{"name":"obj_mae","path":"objects/obj_mae/obj_mae.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":224.0,},
         {"$GMRInstance":"v2","%Name":"inst_D2E382D","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D2E382D","objectId":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":176.0,"y":928.0,},
         {"$GMRInstance":"v2","%Name":"inst_6010E89E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6010E89E","objectId":{"name":"obj_doors","path":"objects/obj_doors/obj_doors.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-4.9615383,"scaleY":3.181818,"x":192.0,"y":896.0,},

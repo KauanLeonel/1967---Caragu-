@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_btn_e",
-    "path":"sprites/spr_btn_e/spr_btn_e.yy",
+    "name":"spr_livro_aberto",
+    "path":"sprites/spr_livro_aberto/spr_livro_aberto.yy",
   },
   "spriteMaskId":null,
   "visible":true,
