@@ -23,7 +23,7 @@
   ],
   "name":"spr_cama_roberto",
   "nineSlice":null,
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"quarto",
     "path":"folders/Sprites/assets/quarto.yy",

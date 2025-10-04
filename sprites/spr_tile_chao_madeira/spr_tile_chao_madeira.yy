@@ -19,7 +19,7 @@
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6730555e-c10d-48d0-9d30-8cfedd13f035","blendMode":0,"displayName":"default","isLocked":false,"name":"6730555e-c10d-48d0-9d30-8cfedd13f035","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"823f013f-cac2-4c46-9b74-c9c1aab15304","blendMode":0,"displayName":"default","isLocked":false,"name":"823f013f-cac2-4c46-9b74-c9c1aab15304","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tile_chao_madeira",
   "nineSlice":{
@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":1,
+  "origin":9,
   "parent":{
     "name":"tiles",
     "path":"folders/Sprites/tiles.yy",

@@ -23,7 +23,7 @@
   ],
   "name":"spr_cadeira_frentec",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"cozinha",
     "path":"folders/Sprites/assets/cozinha.yy",
@@ -78,7 +78,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":12,
-    "yorigin":0,
+    "yorigin":12,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

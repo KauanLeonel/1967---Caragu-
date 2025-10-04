@@ -23,7 +23,7 @@
   ],
   "name":"spr_cadeira_lado",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"cozinha",
     "path":"folders/Sprites/assets/cozinha.yy",
@@ -78,7 +78,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":0,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
