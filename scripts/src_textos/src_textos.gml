@@ -31,6 +31,9 @@ function src_textos(){
 		break;
 	case "PratoVazio":
 		ds_grid_add_text("Estava delicioso", spr_retrato, 0, "Roberto");
+		ini_open("Dados.sav")
+			ini_write_real ("Missoes", "Missao2", 0);
+		ini_close();
 		break;
 	case "Sonho":
 		ds_grid_add_text("Que sonho estranho... Parecia que o mundo estava caindo... Me deu até ânsia.", spr_retrato, 0, "Roberto");

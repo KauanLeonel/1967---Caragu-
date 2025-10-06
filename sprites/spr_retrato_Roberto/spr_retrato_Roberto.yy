@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_retrato",
+  "%Name":"spr_retrato_Roberto",
   "bboxMode":0,
   "bbox_bottom":899,
   "bbox_left":33,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a79c5ae3-a904-4f00-a11a-8f42d6637287","name":"a79c5ae3-a904-4f00-a11a-8f42d6637287","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3df1a31a-cae1-491b-a3a4-164a6ceb007d","name":"3df1a31a-cae1-491b-a3a4-164a6ceb007d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":900,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4194679e-33ff-456a-ad0b-5767728e64c6","blendMode":0,"displayName":"default","isLocked":false,"name":"4194679e-33ff-456a-ad0b-5767728e64c6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5a2e7ba2-4f85-42f0-9243-647f7bfce9b2","blendMode":0,"displayName":"default","isLocked":false,"name":"5a2e7ba2-4f85-42f0-9243-647f7bfce9b2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_retrato",
+  "name":"spr_retrato_Roberto",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"caracteres",
-    "path":"folders/Sprites/caracteres.yy",
+    "name":"Retratos",
+    "path":"folders/Sprites/MainCaracter/Retratos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_retrato",
+    "%Name":"spr_retrato_Roberto",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_retrato",
+    "name":"spr_retrato_Roberto",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a79c5ae3-a904-4f00-a11a-8f42d6637287","path":"sprites/spr_retrato/spr_retrato.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4bb4e397-b487-43f6-9638-6ac2c03b446d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3df1a31a-cae1-491b-a3a4-164a6ceb007d","path":"sprites/spr_retrato_Roberto/spr_retrato_Roberto.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e9b91b71-8707-45c2-b609-4f98ac80fdc1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

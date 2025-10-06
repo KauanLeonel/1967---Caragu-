@@ -137,6 +137,7 @@
     {"id":{"name":"spr_roberto_esquerdo","path":"sprites/spr_roberto_esquerdo/spr_roberto_esquerdo.yy",},},
     {"id":{"name":"spr_roberto_frente","path":"sprites/spr_roberto_frente/spr_roberto_frente.yy",},},
     {"id":{"name":"spr_roberto_tras","path":"sprites/spr_roberto_tras/spr_roberto_tras.yy",},},
+    {"id":{"name":"spr_seta","path":"sprites/spr_seta/spr_seta.yy",},},
     {"id":{"name":"spr_tile_chao_madeira_128x128","path":"sprites/spr_tile_chao_madeira_128x128/spr_tile_chao_madeira_128x128.yy",},},
     {"id":{"name":"tls_chao_madeira","path":"tilesets/tls_chao_madeira/tls_chao_madeira.yy",},},
   ],

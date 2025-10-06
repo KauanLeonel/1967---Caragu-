@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_block2",
-    "path":"sprites/spr_block2/spr_block2.yy",
+    "name":"spr_seta",
+    "path":"sprites/spr_seta/spr_seta.yy",
   },
   "spriteMaskId":null,
   "visible":false,
