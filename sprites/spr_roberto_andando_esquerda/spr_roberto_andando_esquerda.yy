@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_roberto_andando_esquerda",
-  "bboxMode":0,
+  "bboxMode":1,
   "bbox_bottom":127,
   "bbox_left":0,
   "bbox_right":63,

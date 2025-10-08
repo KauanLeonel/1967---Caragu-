@@ -58,7 +58,7 @@ else if (ang >= 135 && ang < 225) {
     sprite_index = moving ? spr_roberto_andando_esquerda : spr_roberto_esquerdo;
 }
 else if (ang >= 225 && ang < 315) {
-    sprite_index = moving ? spr_roberto_frente : spr_roberto_frente;
+    sprite_index = moving ? spr_roberto_andando_frente : spr_roberto_frente;
 }
 else if (ang >= 315 || ang < 45) {
     sprite_index = moving ? spr_roberto_andando_direita : spr_roberto_direito;

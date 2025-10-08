@@ -30,7 +30,7 @@
   ],
   "name":"spr_roberto_andando_direita",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"andando",
     "path":"folders/Sprites/MainCaracter/andando.yy",
