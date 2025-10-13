@@ -1,26 +1,35 @@
-var ativar_x = 890;
-var ativar_y = 866;
-if (!global.cutscene_ativa && point_distance(obj_player.x, obj_player.y, ativar_x, ativar_y) < 100) {
-    global.cutscene_ativa = true;
-    global.controle = false; // Desliga o controle do jogador
+// Se cutscene ainda vai rodar
+if (cutscene_ativa && !instance_exists(obj_cutscene)) {
+    var cut = instance_create_layer(x, y, "Instances", obj_cutscene);
+    cut.cutscene = cutscene;
 }
 
-if (global.cutscene_ativa) {
-    var destino_x = obj_player.x;
-    //var destino_y = obj_player.y;
+// Durante cutscene → não se move
+if (!cutscene_ativa || !instance_exists(obj_cutscene)) {
 
-    var dist =abs(x - destino_x);
+    // Distância e direção até o jogador
+    var dist = point_distance(x, y, obj_player.x, obj_player.y);
+    var dir = point_direction(x, y, obj_player.x, obj_player.y);
 
-    if (dist > 100) {
-        var dir = sign(destino_x - x);
-        var spd = 4; // Velocidade da Ana
+    var vel = 6;
 
-        x += dir * spd;
-    } else {
-        // Quando chegar perto o bastante do player
-        global.cutscene_ativa = false;
-        global.controle = true; // Devolve o controle
-        // Aqui você pode continuar a cena, exibir diálogo etc
-		instance_destroy();
+    // Movimento
+    var spd_x = lengthdir_x(vel, dir);
+    var spd_y = lengthdir_y(vel, dir);
+
+    // Condições de parada
+    if (dist <= 32 || place_meeting(x, y, obj_player)) {
+        vel = 0;
+        exit;
+    }
+
+    // Movimento com colisão
+    if (!place_meeting(x + spd_x, y, obj_bloco_pai) && !place_meeting(x + spd_x, y, obj_player)) {
+        x += spd_x;
+    }
+
+    if (!place_meeting(x, y + spd_y, obj_bloco_pai) && !place_meeting(x, y + spd_y, obj_player)) {
+        y += spd_y;
     }
 }
+

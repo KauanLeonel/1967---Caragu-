@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"438e21ac-2b8a-45fa-9224-1752eee186f9","name":"438e21ac-2b8a-45fa-9224-1752eee186f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"767bedda-2bba-4760-9209-ae20234d2809","name":"767bedda-2bba-4760-9209-ae20234d2809","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":128,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"3f4da3bf-41dc-4081-ae88-fbdf8e2ea696","blendMode":0,"displayName":"default","isLocked":false,"name":"3f4da3bf-41dc-4081-ae88-fbdf8e2ea696","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3a2e3ed4-6162-4ae6-8003-a43826cd4eff","blendMode":0,"displayName":"default","isLocked":false,"name":"3a2e3ed4-6162-4ae6-8003-a43826cd4eff","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_roberto_frente",
   "nineSlice":{
@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"MainCaracter",
     "path":"folders/Sprites/MainCaracter.yy",
@@ -90,14 +90,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"438e21ac-2b8a-45fa-9224-1752eee186f9","path":"sprites/spr_roberto_frente/spr_roberto_frente.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"424aa9d2-8598-46f4-a386-f101767947b6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"767bedda-2bba-4760-9209-ae20234d2809","path":"sprites/spr_roberto_frente/spr_roberto_frente.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b4b0ba38-9d86-47d1-9263-9ad17ed66d5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":24,
-    "yorigin":83,
+    "yorigin":64,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

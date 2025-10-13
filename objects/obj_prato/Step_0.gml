@@ -11,7 +11,11 @@ if(pode == "Mãe2"){
     if (dist < 64) {
         // Verifica se a tecla E foi pressionada
         if (keyboard_check_pressed(ord("E"))) {
-            // Dá a recompensa ao player
+		var proximaFase = instance_create_layer(790, 500, "Instances", obj_transicao);
+
+proximaFase.personagemx = 360;
+proximaFase.personagemy = 360;
+proximaFase.sala = Room_floresta;
 			nome = "PratoVazio"
 			image_index = 1;
             // Destroi o item depois de coletado

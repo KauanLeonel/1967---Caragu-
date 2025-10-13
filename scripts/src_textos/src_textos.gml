@@ -24,9 +24,9 @@ function src_textos(){
 		ini_open("Dados.sav")
 		pode = ini_read_string("Missoes", "Nome_mae", "");
 		ini_close();
-
 		if(pode == "Mãe2"){
 				array_delete(global.missoes, 0, 1)
+				array_push(global.missoes, ["Encontre Ana!"])
 		}
 		break;
 	case "PratoVazio":
@@ -51,6 +51,17 @@ function src_textos(){
 	break;
 	case "Mãe2":
 		ds_grid_add_text("Fiz a tapioca que você gosta", spr_retrato, 0, "Mãe");
+	break;
+	
+	case "ana":
+	array_delete(global.missoes, 0, 1)
+				array_push(global.missoes, ["Vá para a escola"])
+		ds_grid_add_text("ROBERTO!!!", spr_retrato, 0, "Ana");
+		ds_grid_add_text("Isso são horas de se acordar??? Vamos nos atrasar para a escola", spr_retrato, 0, "Ana");
+		ds_grid_add_text("Está sendo ainda...", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Larga de moleza bobão, vamos. Você vai na frente desta vez", spr_retrato, 0, "Ana");
+		
+		
 	break;
 }
 
