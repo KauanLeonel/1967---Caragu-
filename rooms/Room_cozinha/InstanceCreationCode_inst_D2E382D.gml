@@ -1,3 +1,3 @@
-personagemx= 452;
-personagemy = 166;
+personagemx= 168;
+personagemy = 165;
 sala = Room_quarto;
