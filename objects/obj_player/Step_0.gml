@@ -14,7 +14,7 @@ velv = (baixo - cima) * velocidade;
 	
 //COLISÃO HORIZONTAL, verifica se está colidindo com algum bloco, se sim, não move	
 repeat(abs(velh)){ //Faz pixel por pixel, então o repeat serve para fazer até terminar a veocidade
-	if(!place_meeting(x + sign(velh), y, obj_bloco_pai)){
+	if(!place_meeting(x + (velh), y, obj_bloco_pai)){
 		x += sign(velh)
 	} else{
 		velh = 0;
@@ -24,7 +24,7 @@ repeat(abs(velh)){ //Faz pixel por pixel, então o repeat serve para fazer até 
 
 //COLISÃO VERTICAL, verifica se está colidindo com algum bloco, se sim, não move	
 repeat(abs(velv)){
-	if(!place_meeting(x, y  + sign(velv), obj_bloco_pai)){
+	if(!place_meeting(x, y  + (velv), obj_bloco_pai)){
 		y += sign(velv)
 	} else{
 		velv = 0;	
