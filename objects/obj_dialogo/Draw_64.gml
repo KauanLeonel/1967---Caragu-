@@ -17,7 +17,7 @@ if (texto_grid[# Infos.Lado, pagina] == 0) {
 
 } else {
     // Lado direito
-    draw_sprite_ext(_sprite, 0, guil - 10, -130, 1, 1, 0, c_white, 1);
+    draw_sprite_ext(_sprite, 0, 680, -10, 1, 1, 0, c_white, 1);
 }
 // Fundo do diálogo
 draw_rectangle_color(_xx, _yy, guil, guia, _c, _c, _c, _c, false);

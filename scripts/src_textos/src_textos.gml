@@ -5,10 +5,10 @@ function src_textos(){
 		ds_grid_add_text("Segundo texto", spr_retrato, 0, "Nome");
 		break;
 	case "Mãe":
-		ds_grid_add_text("Bom dia filho, está tudo bem?", spr_retrato, 0, "Mãe");
-		ds_grid_add_text("Está sim mãe, só tive um sonho ruim?", spr_retrato, 1, "Roberto");
-		ds_grid_add_text("Não se preocupe meu filho, independente do que for mamãe está aqui para cuidar do meu Betinho", spr_retrato, 0, "Mãe");
-		ds_grid_add_text("Agora come logo que a Maria já já está aí para vocês irem para a escola.", spr_retrato, 0, "Mãe");
+		ds_grid_add_text("Bom dia filho, está tudo bem?", spr_retrato_mae, 1, "Mãe");
+		ds_grid_add_text("Está sim mãe, só tive um sonho ruim?", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Não se preocupe meu filho, independente do que for mamãe está aqui para cuidar do meu Betinho", spr_retrato_mae, 1, "Mãe");
+		ds_grid_add_text("Agora come logo que a Maria já já está aí para vocês irem para a escola.", spr_retrato_mae, 1, "Mãe");
 		//fazer a verificação para saber se ele já fez a primeira missão
 		array_delete(global.missoes, 0, 1)
 		array_push(global.missoes, ["Tome café da manhã"])
@@ -17,7 +17,7 @@ function src_textos(){
 		ini_close();
 		break;
 	case "mae0":
-			ds_grid_add_text("...", spr_retrato, 0, "Mãe");
+			ds_grid_add_text("...", spr_retrato_mae, 1, "Mãe");
 	break;
 	case "Prato":
 		ds_grid_add_text("Um prato de tapioca com banana", spr_retrato, 0, "Roberto");
@@ -28,6 +28,12 @@ function src_textos(){
 				array_delete(global.missoes, 0, 1)
 				array_push(global.missoes, ["Encontre Ana!"])
 		}
+		s = instance_create_layer(928.028, 576, "Instances", obj_transicao)
+		s.personagemx= 168;
+		s.personagemy = 165;
+		s.sala = Room_floresta;
+
+
 		break;
 	case "PratoVazio":
 		ds_grid_add_text("Estava delicioso", spr_retrato, 0, "Roberto");
@@ -55,13 +61,11 @@ function src_textos(){
 	
 	case "ana":
 	array_delete(global.missoes, 0, 1)
-				array_push(global.missoes, ["Vá para a escola"])
+		array_push(global.missoes, ["Vá para a escola"])
 		ds_grid_add_text("ROBERTO!!!", spr_retrato, 0, "Ana");
 		ds_grid_add_text("Isso são horas de se acordar??? Vamos nos atrasar para a escola", spr_retrato, 0, "Ana");
-		ds_grid_add_text("Está sendo ainda...", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Está cedo ainda...", spr_retrato, 0, "Roberto");
 		ds_grid_add_text("Larga de moleza bobão, vamos. Você vai na frente desta vez", spr_retrato, 0, "Ana");
-		
-		
 	break;
 }
 
