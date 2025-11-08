@@ -79,6 +79,7 @@
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_inicializador","path":"objects/obj_inicializador/obj_inicializador.yy",},},
     {"id":{"name":"obj_item_pai","path":"objects/obj_item_pai/obj_item_pai.yy",},},
+    {"id":{"name":"Obj_kauan","path":"objects/Obj_kauan/Obj_kauan.yy",},},
     {"id":{"name":"obj_mae","path":"objects/obj_mae/obj_mae.yy",},},
     {"id":{"name":"obj_mochila","path":"objects/obj_mochila/obj_mochila.yy",},},
     {"id":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},},
