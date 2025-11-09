@@ -1,5 +1,7 @@
+
 if (!inicializador) {
-    src_textos(); // Corrigido o nome da função
+	
+	src_textos(); // Corrigido o nome da função
     inicializador = true;
 	global.controle = false;
 }

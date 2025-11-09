@@ -109,13 +109,21 @@ function cutscenes_alterar_var(_id, _var, _estado) {
     _end();
 }
 function cutscene_dialogo() {
-    var _npc = instance_nearest(x, y, obj_par_npc);
-    
-    if (_npc != noone) {
-        var _dialogo = instance_create_layer(x, y, "Instances", obj_dialogo);
-        _dialogo.npc_nome = _npc.nome;
-    } else {
-        show_debug_message("Nenhum NPC encontrado para a cutscene de diálogo!");
+    // Se o diálogo ainda não começou
+    if (!variable_global_exists("dialogo_iniciado") || !global.dialogo_iniciado) {
+        var _npc = instance_nearest(x, y, obj_par_npc);
+
+        if (_npc != noone) {
+            var _dialogo = instance_create_layer(x, y, "Instances", obj_dialogo);
+            _dialogo.npc_nome = _npc.nome;
+            global.dialogo = true;
+            global.dialogo_iniciado = true; // 🔹 marca que o diálogo foi criado
+        }
     }
-    
+
+    // Espera o diálogo acabar
+    if (!global.dialogo) {
+        global.dialogo_iniciado = false; // 🔹 reseta pra futuras cutscenes
+        _end(); // ✅ continua a cutscene
+    }
 }
