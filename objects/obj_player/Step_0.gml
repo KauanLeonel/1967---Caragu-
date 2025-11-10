@@ -71,7 +71,7 @@ else if (ang >= 315 || ang < 45) {
 	sprite_index = spr_roberto_frente
 }
 #region Diálogo
-if distance_to_object(obj_par_npc) <= 10{
+if distance_to_object(obj_par_npc) <= 64{
 	if keyboard_check_pressed(ord("E")) and global.dialogo == false{
 		var _npc = instance_nearest(x, y, obj_par_npc);
 		var _dialogo = instance_create_layer(x, y, "Instances", obj_dialogo);

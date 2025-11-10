@@ -67,6 +67,39 @@ function src_textos(){
 		ds_grid_add_text("Está cedo ainda...", spr_retrato, 0, "Roberto");
 		ds_grid_add_text("Larga de moleza bobão, vamos. Você vai na frente desta vez", spr_retrato, 0, "Ana");
 	break;
+	
+		case "flor":
+		
+		ds_grid_add_text("Essa é para você… boboca.", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Obrigada…", spr_retrato, 0, "Ana");
+		instance_destroy(obj_flor);
+	break;
+	
+	case "onça":
+		
+		ds_grid_add_text("EITA", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Aii Beto, vai lá ver o que é. Vai que é uma onça.…", spr_retrato, 1, "Ana");
+		ds_grid_add_text("Oxi, e você quer que eu veja", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Aí vai dar tempo de eu fugir", spr_retrato, 1, "Ana");
+		
+	break;
+	case "onça2":
+		
+
+		ds_grid_add_text("Viu, seu medroso?? Não é nada, falta testosterona nas suas bolas.", spr_retrato, 1, "Ana");
+		ds_grid_add_text("Haha, engraçadinha.", spr_retrato, 0, "Roberto");
+		instance_destroy(obj_onca)
+		
+	break;
+	case "mochila":
+		ds_grid_add_text("A mochila que meu avô meu deu antes de morrer...", spr_retrato, 0, "Roberto");
+	break;
+	case "bola":
+		ds_grid_add_text("Nunca se sabe quando vai ter uma pelada", spr_retrato, 0, "Roberto");
+	break;
+	case "materiais":
+		ds_grid_add_text("Coisas para estudar", spr_retrato, 0, "Roberto");
+	break;
 }
 
 

@@ -124,6 +124,6 @@ function cutscene_dialogo() {
     // Espera o diálogo acabar
     if (!global.dialogo) {
         global.dialogo_iniciado = false; // 🔹 reseta pra futuras cutscenes
-        _end(); // ✅ continua a cutscene
+        _end(); // continua a cutscene
     }
 }
