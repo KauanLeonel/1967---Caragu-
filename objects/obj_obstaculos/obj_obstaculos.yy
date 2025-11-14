@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_blocoinvisivel",
-  "eventList":[],
+  "%Name":"obj_obstaculos",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_blocoinvisivel",
+  "name":"obj_obstaculos",
   "overriddenProperties":[],
   "parent":{
     "name":"Blocks",
     "path":"folders/Objetos/Blocks.yy",
   },
-  "parentObjectId":{
-    "name":"obj_bloco_pai",
-    "path":"objects/obj_bloco_pai/obj_bloco_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_blocoinvisivel",
-    "path":"sprites/spr_blocoinvisivel/spr_blocoinvisivel.yy",
+    "name":"spr_obstaculos_ph",
+    "path":"sprites/spr_obstaculos_ph/spr_obstaculos_ph.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
