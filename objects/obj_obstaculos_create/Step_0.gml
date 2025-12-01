@@ -10,3 +10,10 @@ if obj_player_bike.life > 0{
 		timer = random_range(60, 120);
 	}
 }
+
+aumentarVelocidade++;
+
+if(aumentarVelocidade == 120){
+aumentarVelocidade = 0;
+vel += 10
+}

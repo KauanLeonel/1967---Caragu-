@@ -2,4 +2,6 @@
 randomise();
 
 //timer
-timer = random_range(60, 120);
+timer = random_range(30, 60);
+aumentarVelocidade = 0;
+vel = 8;

@@ -97,7 +97,6 @@
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"obj_var_global","path":"objects/obj_var_global/obj_var_global.yy",},},
     {"id":{"name":"particle_rain","path":"particles/particle_rain/particle_rain.yy",},},
-    {"id":{"name":"Room_bike_1","path":"rooms/Room_bike_1/Room_bike_1.yy",},},
     {"id":{"name":"Room_bike","path":"rooms/Room_bike/Room_bike.yy",},},
     {"id":{"name":"Room_cozinha","path":"rooms/Room_cozinha/Room_cozinha.yy",},},
     {"id":{"name":"Room_escola","path":"rooms/Room_escola/Room_escola.yy",},},
@@ -180,7 +179,6 @@
     {"roomId":{"name":"Room_sonho","path":"rooms/Room_sonho/Room_sonho.yy",},},
     {"roomId":{"name":"Room_escola","path":"rooms/Room_escola/Room_escola.yy",},},
     {"roomId":{"name":"Room_bike","path":"rooms/Room_bike/Room_bike.yy",},},
-    {"roomId":{"name":"Room_bike_1","path":"rooms/Room_bike_1/Room_bike_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

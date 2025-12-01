@@ -34,3 +34,8 @@ if life > 0{
 
 show_debug_message(ivul);
 show_debug_message(life);
+contador++;
+obj_player.visible = false
+if (contador == 30 * 100){
+obj_player.visible = true
+room_goto(Room_menu)}

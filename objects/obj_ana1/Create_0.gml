@@ -1,6 +1,6 @@
 cutscene_ativa = true;
 nome = "ana3"
-
+proximaSala = false;
  cutscene = [
     [cutscenes_alterar_var, obj_ana1, "cutscene_ativa", false], // desativa a flag na Ana
 	[cutscenes_alterar_var, obj_player, "global.controle", false], 
@@ -11,6 +11,7 @@ nome = "ana3"
 	//[cutscenes_posicionar_frente, obj_ana, obj_player, 30],// andar até frente do player
 	[cutscenes_alterar_var, obj_ana1, "nome", "ana4"], 
 	[cutscene_dialogo],
+	[cutscenes_alterar_var, obj_ana1, "proximaSala", true], 
 	[cutscenes_alterar_var, obj_player, "global.controle", true]
 ];
 action = 0;

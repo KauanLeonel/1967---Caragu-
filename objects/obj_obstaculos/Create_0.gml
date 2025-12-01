@@ -5,4 +5,4 @@ randomise();
 image_index = irandom_range(0, 1);
 
 //definindo a velocidade
-vel = 8;
+vel = obj_obstaculos_create.vel;

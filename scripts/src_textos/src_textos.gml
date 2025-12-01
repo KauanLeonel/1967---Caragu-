@@ -120,7 +120,7 @@ function src_textos(){
 		ds_grid_add_text("Já sei, eu te levo para casa", spr_retrato, 1, "Roberto");
 		ds_grid_add_text("Não vai ser um problema mano??", spr_retrato, 1, "Roberto");
 		ds_grid_add_text("Não, tá tudo bem, fica em paz", spr_retrato, 1, "Roberto");
-		room_goto(Room_bike)
+		
 	break;
 }
 

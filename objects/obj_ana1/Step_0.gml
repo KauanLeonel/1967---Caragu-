@@ -4,7 +4,8 @@ if (cutscene_ativa && !instance_exists(obj_cutscene)) {
     cut.cutscene = cutscene;
 	
 }
-
+if (proximaSala == true){
+room_goto(Room_bike)}
 // Durante cutscene → não se move
 if (!cutscene_ativa || !instance_exists(obj_cutscene)) {
 
