@@ -75,6 +75,11 @@ function src_textos(){
 		instance_destroy(obj_flor);
 	break;
 	
+		case "ana2":
+		
+		ds_grid_add_text("Vamos logo Roberto.", spr_retrato, 0, "Roberto");
+	break;
+	
 	case "onça":
 		
 		ds_grid_add_text("EITA", spr_retrato, 0, "Roberto");
@@ -99,6 +104,23 @@ function src_textos(){
 	break;
 	case "materiais":
 		ds_grid_add_text("Coisas para estudar", spr_retrato, 0, "Roberto");
+	break;
+	case "ana3":
+		ds_grid_add_text("Chegamos à escola!!!", spr_retrato, 0, "Ana");
+		instance_create_layer(x + 100, y + 100, "Instances", obj_felipe)
+		ds_grid_add_text("FELIPE...", spr_retrato, 0, "Roberto");
+	
+	break;
+	case "ana4":
+	array_delete(global.missoes, 0, 1)
+		array_push(global.missoes, ["Leve Felipe para casa"])
+		ds_grid_add_text("Felipe...Tá tudo bem???", spr_retrato, 1, "Ana");
+		ds_grid_add_text("Não muito, acabei me machucando no jogo de futebol agora e eu preciso ir para casa, mas eu estou de bicicleta", spr_retrato, 1, "Roberto");
+		ds_grid_add_text("Nossa, que merda", spr_retrato, 1, "Roberto");
+		ds_grid_add_text("Já sei, eu te levo para casa", spr_retrato, 1, "Roberto");
+		ds_grid_add_text("Não vai ser um problema mano??", spr_retrato, 1, "Roberto");
+		ds_grid_add_text("Não, tá tudo bem, fica em paz", spr_retrato, 1, "Roberto");
+		room_goto(Room_bike)
 	break;
 }
 

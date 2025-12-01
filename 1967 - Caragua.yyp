@@ -61,12 +61,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"1967 - Caragua",
   "resources":[
     {"id":{"name":"ftn_dialogo","path":"fonts/ftn_dialogo/ftn_dialogo.yy",},},
     {"id":{"name":"obj_ana","path":"objects/obj_ana/obj_ana.yy",},},
+    {"id":{"name":"obj_ana1","path":"objects/obj_ana1/obj_ana1.yy",},},
     {"id":{"name":"obj_bloco_pai","path":"objects/obj_bloco_pai/obj_bloco_pai.yy",},},
     {"id":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},},
     {"id":{"name":"obj_blocoinvisivel","path":"objects/obj_blocoinvisivel/obj_blocoinvisivel.yy",},},
@@ -96,6 +97,7 @@
     {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"obj_var_global","path":"objects/obj_var_global/obj_var_global.yy",},},
     {"id":{"name":"particle_rain","path":"particles/particle_rain/particle_rain.yy",},},
+    {"id":{"name":"Room_bike_1","path":"rooms/Room_bike_1/Room_bike_1.yy",},},
     {"id":{"name":"Room_bike","path":"rooms/Room_bike/Room_bike.yy",},},
     {"id":{"name":"Room_cozinha","path":"rooms/Room_cozinha/Room_cozinha.yy",},},
     {"id":{"name":"Room_escola","path":"rooms/Room_escola/Room_escola.yy",},},
@@ -178,6 +180,7 @@
     {"roomId":{"name":"Room_sonho","path":"rooms/Room_sonho/Room_sonho.yy",},},
     {"roomId":{"name":"Room_escola","path":"rooms/Room_escola/Room_escola.yy",},},
     {"roomId":{"name":"Room_bike","path":"rooms/Room_bike/Room_bike.yy",},},
+    {"roomId":{"name":"Room_bike_1","path":"rooms/Room_bike_1/Room_bike_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

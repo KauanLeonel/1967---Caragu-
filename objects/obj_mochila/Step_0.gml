@@ -4,7 +4,7 @@ if (instance_exists(obj_player)) {
     var dist = point_distance(x, y, obj_player.x, obj_player.y);
 
     // Se o player estiver perto (ex: 32 pixels)
-    if (dist < 84) {
+    if (dist < 64) {
         // Verifica se a tecla E foi pressionada
         if (keyboard_check_pressed(ord("E"))) {
             // Dá a recompensa ao player

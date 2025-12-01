@@ -34,12 +34,3 @@ if (!cutscene_ativa || !instance_exists(obj_cutscene)) {
     }
 }
 
-
-if distance_to_object(obj_flor) <= 64{
-	nome= "flor"
-	}else{
-		if(nome2 = true)
-		nome= "ana2"
-}
-
-

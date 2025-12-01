@@ -1,3 +1,3 @@
-sala ="Room_escola"
+sala =Room_escola
 personagemx = 100;
 personagemy= 100;

@@ -1,24 +1,30 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room_escola",
+  "%Name":"Room_bike_1",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_78D67B96","path":"rooms/Room_escola/Room_escola.yy",},
+    {"name":"inst_2F2C7719","path":"rooms/Room_bike_1/Room_bike_1.yy",},
+    {"name":"inst_70111AA","path":"rooms/Room_bike_1/Room_bike_1.yy",},
+    {"name":"inst_4EF6F817","path":"rooms/Room_bike_1/Room_bike_1.yy",},
+    {"name":"inst_3210AF58","path":"rooms/Room_bike_1/Room_bike_1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_78D67B96","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_78D67B96","objectId":{"name":"obj_ana1","path":"objects/obj_ana1/obj_ana1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_2F2C7719","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2F2C7719","objectId":{"name":"obj_blocoinvisivel","path":"objects/obj_blocoinvisivel/obj_blocoinvisivel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_70111AA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_70111AA","objectId":{"name":"obj_player_bike","path":"objects/obj_player_bike/obj_player_bike.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":480.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4EF6F817","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EF6F817","objectId":{"name":"obj_blocoinvisivel","path":"objects/obj_blocoinvisivel/obj_blocoinvisivel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":736.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3210AF58","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3210AF58","objectId":{"name":"obj_obstaculos_create","path":"objects/obj_obstaculos_create/obj_obstaculos_create.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room_escola",
+  "name":"Room_bike_1",
   "parent":{
-    "name":"Parte 3 - Escola",
-    "path":"folders/Cenas/Parte 3 - Escola.yy",
+    "name":"Minigames",
+    "path":"folders/Cenas/Minigames.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
