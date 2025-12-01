@@ -25,6 +25,7 @@
     {"name":"inst_79D6F953","path":"rooms/Room_cozinha/Room_cozinha.yy",},
     {"name":"inst_C9A244A","path":"rooms/Room_cozinha/Room_cozinha.yy",},
     {"name":"inst_6937B616","path":"rooms/Room_cozinha/Room_cozinha.yy",},
+    {"name":"inst_5D9B719F","path":"rooms/Room_cozinha/Room_cozinha.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -48,6 +49,7 @@
         {"$GMRInstance":"v4","%Name":"inst_79D6F953","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_79D6F953","objectId":{"name":"obj_blocoinvisivel","path":"objects/obj_blocoinvisivel/obj_blocoinvisivel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.3649375,"scaleY":0.38242725,"x":369.02957,"y":491.73767,},
         {"$GMRInstance":"v4","%Name":"inst_C9A244A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C9A244A","objectId":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.6370631,"scaleY":1.0,"x":-97.59329,"y":724.0001,},
         {"$GMRInstance":"v4","%Name":"inst_6937B616","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6937B616","objectId":{"name":"obj_bloco1","path":"objects/obj_bloco1/obj_bloco1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":13.250001,"scaleY":1.0312514,"x":-95.77057,"y":848.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5D9B719F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D9B719F","objectId":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-179.94868,"scaleX":2.0,"scaleY":1.015625,"x":877.02905,"y":597.4427,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_4771C798","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_4771C798","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":3.8235295,"scaleY":3.8235292,"spriteId":{"name":"spr_fogao","path":"sprites/spr_fogao/spr_fogao.yy",},"x":511.85294,"y":108.852936,},
