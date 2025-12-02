@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_block1",
-    "path":"sprites/spr_block1/spr_block1.yy",
+    "name":"spr_prato",
+    "path":"sprites/spr_prato/spr_prato.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -80,15 +80,23 @@ function cutscenes_pular(_id, _altura, _tempo) {
 }
 
 function cutscenes_posicionar_frente(_id, _player, _dist) {
-    var dist = point_distance(_id.x, _id.y, _player.x, _player.y + 150);
 
-    if (dist <= _dist) {
+    // posição alvo na frente do player
+    var target_x = _player.x;
+    var target_y = _player.y + _dist; // frente do player (para cima)
+
+    // distância até o ponto alvo
+    var dist = point_distance(_id.x, _id.y, target_x, target_y);
+
+    if (dist <= 30) {
         if (instance_exists(obj_cutscene)) with (obj_cutscene) _end();
         return;
     }
 
-    var dir = point_direction(_id.x, _id.y, _player.x, _player.y);
-    var vel = 2; // velocidade devagar
+    // direção até o alvo
+    var dir = point_direction(_id.x, _id.y, target_x, target_y);
+    var vel = 2;
+
     var spd_x = lengthdir_x(vel, dir);
     var spd_y = lengthdir_y(vel, dir);
 
@@ -98,6 +106,7 @@ function cutscenes_posicionar_frente(_id, _player, _dist) {
         _id.y += spd_y;
     }
 }
+
 function cutscenes_alterar_var(_id, _var, _estado) {
     // Se for global
     if (string_pos("global.", _var)) {

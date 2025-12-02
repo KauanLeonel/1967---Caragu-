@@ -19,6 +19,19 @@ function src_textos(){
 	case "mae0":
 			ds_grid_add_text("...", spr_retrato_mae, 1, "Mãe");
 	break;
+	case "Felipe":
+			ds_grid_add_text("Muito obrigado Roberto, de verdade", spr_retrato_mae, 1, "Felipe");
+			ds_grid_add_text("Ao seu dispor :D", spr_retrato, 1, "Roberto");
+			ds_grid_add_text("Você vai na festa hoje no BoraBora???", spr_retrato, 1, "Roberto");
+			ds_grid_add_text("Nem estava sabendo disso... Com certeza eu vou", spr_retrato_mae, 1, "Felipe");
+			ds_grid_add_text("Então eu te vejo lá kkkkk", spr_retrato, 1, "Roberto");		
+			ds_grid_add_text("Antes que eu me esqueça, você sabe onde está o Kako??", spr_retrato, 1, "Roberto");
+			ds_grid_add_text("Está no rio do Santo Antônio pescando, é só seguir o caminho da floresta", spr_retrato_mae, 1, "Felipe");
+			ds_grid_add_text("Valeuu", spr_retrato, 1, "Roberto");
+			array_delete(global.missoes, 0, 1)
+		array_push(global.missoes, ["Encontre Kako"])
+			room_goto(Room_floresta_Kako)
+	break;
 	case "Prato":
 		ds_grid_add_text("Um prato de tapioca com banana", spr_retrato, 0, "Roberto");
 		ini_open("Dados.sav")
@@ -107,7 +120,7 @@ function src_textos(){
 	break;
 	case "ana3":
 		ds_grid_add_text("Chegamos à escola!!!", spr_retrato, 0, "Ana");
-		instance_create_layer(x + 100, y + 100, "Instances", obj_felipe)
+		draw_sprite(spr_mae, 0, x + 100, y + 100);
 		ds_grid_add_text("FELIPE...", spr_retrato, 0, "Roberto");
 	
 	break;

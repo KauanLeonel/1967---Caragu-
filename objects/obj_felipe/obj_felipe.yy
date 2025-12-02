@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_felipe",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_felipe",
   "overriddenProperties":[],
@@ -10,8 +13,8 @@
     "path":"folders/Objetos/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"obj_bloco_pai",
-    "path":"objects/obj_bloco_pai/obj_bloco_pai.yy",
+    "name":"obj_par_npc",
+    "path":"objects/obj_par_npc/obj_par_npc.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

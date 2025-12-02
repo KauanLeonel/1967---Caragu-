@@ -1,4 +1,12 @@
-if life > 0{
+if (contador == room_speed * 10 && life > 0){
+venceu = true;
+x = lerp(x, 500, 0.05);
+
+alarm[0] = room_speed * 3; 
+
+} else{
+
+if (life > 0){
 	//arrumando teclas de movimento
 	var up = keyboard_check(ord("W"));
 	var down = keyboard_check(ord("S"));
@@ -30,12 +38,11 @@ if life > 0{
 }else{
 	image_index = 1;
 	x = lerp(x, 500, 0.05);
+	
+	alarm[1] = room_speed * 3; 
 }
-
+}
 show_debug_message(ivul);
 show_debug_message(life);
 contador++;
-obj_player.visible = false
-if (contador == 30 * 100){
-obj_player.visible = true
-room_goto(Room_menu)}
+

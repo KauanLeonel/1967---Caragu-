@@ -1,10 +1,10 @@
 image_xscale = 2;
 image_yscale = 2;
-
+venceu = false
 //arumando a velocidade
 spd = 9;
 vspd = 0;
-
+instance_destroy(obj_player)
 //vidas
 life = 3;
 

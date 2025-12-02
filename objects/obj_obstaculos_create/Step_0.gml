@@ -1,4 +1,4 @@
-if obj_player_bike.life > 0{
+if obj_player_bike.life > 0 && obj_player_bike.venceu == false{
 	var _y = random_range(64, camera_get_view_height(view_camera[0])-64);
 	//timer
 	if timer >= 0{

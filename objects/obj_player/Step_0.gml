@@ -52,7 +52,7 @@ else {
 
 // ----- Escolher sprite baseado em ang (ou last_dir) -----
 if (ang >= 45 && ang < 135) {
-    sprite_index = moving ? spr_roberto_tras : spr_roberto_tras;
+    sprite_index = moving ? spr_roberto_andando_tras : spr_roberto_tras;
 }
 else if (ang >= 135 && ang < 225) {
     sprite_index = moving ? spr_roberto_andando_esquerda : spr_roberto_esquerdo;
