@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_prato",
-    "path":"sprites/spr_prato/spr_prato.yy",
+    "name":"spr_bromelia",
+    "path":"sprites/spr_bromelia/spr_bromelia.yy",
   },
   "spriteMaskId":null,
   "visible":true,
