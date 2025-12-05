@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_obstaculos_ph",
-    "path":"sprites/spr_obstaculos_ph/spr_obstaculos_ph.yy",
+    "name":"spr_obstaculos_ph1",
+    "path":"sprites/spr_obstaculos_ph1/spr_obstaculos_ph1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

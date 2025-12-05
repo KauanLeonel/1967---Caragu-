@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bike_ph",
-    "path":"sprites/spr_bike_ph/spr_bike_ph.yy",
+    "name":"spr_bikeminigame",
+    "path":"sprites/spr_bikeminigame/spr_bikeminigame.yy",
   },
   "spriteMaskId":null,
   "visible":true,

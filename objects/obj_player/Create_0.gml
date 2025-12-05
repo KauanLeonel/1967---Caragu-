@@ -5,3 +5,4 @@ last_dir = 0;
 
 global.controle = true;
 
+

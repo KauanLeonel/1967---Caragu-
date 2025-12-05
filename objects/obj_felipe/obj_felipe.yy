@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mae",
-    "path":"sprites/spr_mae/spr_mae.yy",
+    "name":"spr_felipe",
+    "path":"sprites/spr_felipe/spr_felipe.yy",
   },
   "spriteMaskId":null,
   "visible":true,

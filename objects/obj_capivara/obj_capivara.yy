@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gramaCapigif",
-    "path":"sprites/spr_gramaCapigif/spr_gramaCapigif.yy",
+    "name":"spr_gramaCapigif71",
+    "path":"sprites/spr_gramaCapigif71/spr_gramaCapigif71.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -20,13 +20,13 @@ function src_textos(){
 			ds_grid_add_text("...", spr_retrato_mae, 1, "Mãe");
 	break;
 	case "Felipe":
-			ds_grid_add_text("Muito obrigado Roberto, de verdade", spr_retrato_mae, 1, "Felipe");
+			ds_grid_add_text("Muito obrigado Roberto, de verdade", spr_retratoFelipe , 1, "Felipe");
 			ds_grid_add_text("Ao seu dispor :D", spr_retrato, 1, "Roberto");
 			ds_grid_add_text("Você vai na festa hoje no BoraBora???", spr_retrato, 1, "Roberto");
-			ds_grid_add_text("Nem estava sabendo disso... Com certeza eu vou", spr_retrato_mae, 1, "Felipe");
+			ds_grid_add_text("Nem estava sabendo disso... Com certeza eu vou", spr_retratoFelipe, 1, "Felipe");
 			ds_grid_add_text("Então eu te vejo lá kkkkk", spr_retrato, 1, "Roberto");		
 			ds_grid_add_text("Antes que eu me esqueça, você sabe onde está o Kako??", spr_retrato, 1, "Roberto");
-			ds_grid_add_text("Está no rio do Santo Antônio pescando, é só seguir o caminho da floresta", spr_retrato_mae, 1, "Felipe");
+			ds_grid_add_text("Está no rio do Santo Antônio pescando, é só seguir o caminho da floresta", spr_retratoFelipe, 1, "Felipe");
 			ds_grid_add_text("Valeuu", spr_retrato, 1, "Roberto");
 			array_delete(global.missoes, 0, 1)
 		array_push(global.missoes, ["Encontre Kako"])
@@ -75,16 +75,16 @@ function src_textos(){
 	case "ana":
 	array_delete(global.missoes, 0, 1)
 		array_push(global.missoes, ["Vá para a escola"])
-		ds_grid_add_text("ROBERTO!!!", spr_retrato, 0, "Ana");
-		ds_grid_add_text("Isso são horas de se acordar??? Vamos nos atrasar para a escola", spr_retrato, 0, "Ana");
+		ds_grid_add_text("ROBERTO!!!", spr_retratoAna, 1, "Ana");
+		ds_grid_add_text("Isso são horas de se acordar??? Vamos nos atrasar para a escola", spr_retratoAna, 1, "Ana");
 		ds_grid_add_text("Está cedo ainda...", spr_retrato, 0, "Roberto");
-		ds_grid_add_text("Larga de moleza bobão, vamos. Você vai na frente desta vez", spr_retrato, 0, "Ana");
+		ds_grid_add_text("Larga de moleza bobão, vamos. Você vai na frente desta vez", spr_retratoAna, 1, "Ana");
 	break;
 	
 		case "flor":
 		
 		ds_grid_add_text("Essa é para você… boboca.", spr_retrato, 0, "Roberto");
-		ds_grid_add_text("Obrigada…", spr_retrato, 0, "Ana");
+		ds_grid_add_text("Obrigada…", spr_retratoAna, 1, "Ana");
 		instance_destroy(obj_flor);
 	break;
 	
@@ -96,15 +96,15 @@ function src_textos(){
 	case "onça":
 		
 		ds_grid_add_text("EITA", spr_retrato, 0, "Roberto");
-		ds_grid_add_text("Aii Beto, vai lá ver o que é. Vai que é uma onça.…", spr_retrato, 1, "Ana");
+		ds_grid_add_text("Aii Beto, vai lá ver o que é. Vai que é uma onça.…", spr_retratoAna, 1, "Ana");
 		ds_grid_add_text("Oxi, e você quer que eu veja", spr_retrato, 0, "Roberto");
-		ds_grid_add_text("Aí vai dar tempo de eu fugir", spr_retrato, 1, "Ana");
+		ds_grid_add_text("Aí vai dar tempo de eu fugir", spr_retratoAna, 1, "Ana");
 		
 	break;
 	case "onça2":
 		
 
-		ds_grid_add_text("Viu, seu medroso?? Não é nada, falta testosterona nas suas bolas.", spr_retrato, 1, "Ana");
+		ds_grid_add_text("Viu, seu medroso?? Não é nada, falta testosterona nas suas bolas.", spr_retratoAna, 1, "Ana");
 		ds_grid_add_text("Haha, engraçadinha.", spr_retrato, 0, "Roberto");
 		instance_destroy(obj_onca)
 		
@@ -119,20 +119,20 @@ function src_textos(){
 		ds_grid_add_text("Coisas para estudar", spr_retrato, 0, "Roberto");
 	break;
 	case "ana3":
-		ds_grid_add_text("Chegamos à escola!!!", spr_retrato, 0, "Ana");
-		draw_sprite(spr_mae, 0, x + 100, y + 100);
+		ds_grid_add_text("Chegamos à escola!!!", spr_retratoAna, 0, "Ana");
+		draw_sprite(spr_felipe, 0, x + 100, y + 100);
 		ds_grid_add_text("FELIPE...", spr_retrato, 0, "Roberto");
 	
 	break;
 	case "ana4":
 	array_delete(global.missoes, 0, 1)
 		array_push(global.missoes, ["Leve Felipe para casa"])
-		ds_grid_add_text("Felipe...Tá tudo bem???", spr_retrato, 1, "Ana");
-		ds_grid_add_text("Não muito, acabei me machucando no jogo de futebol agora e eu preciso ir para casa, mas eu estou de bicicleta", spr_retrato, 1, "Roberto");
-		ds_grid_add_text("Nossa, que merda", spr_retrato, 1, "Roberto");
-		ds_grid_add_text("Já sei, eu te levo para casa", spr_retrato, 1, "Roberto");
-		ds_grid_add_text("Não vai ser um problema mano??", spr_retrato, 1, "Roberto");
-		ds_grid_add_text("Não, tá tudo bem, fica em paz", spr_retrato, 1, "Roberto");
+		ds_grid_add_text("Felipe...Tá tudo bem???", spr_retratoAna, 1, "Ana");
+		ds_grid_add_text("Não muito, acabei me machucando no jogo de futebol agora e eu preciso ir para casa, mas eu estou de bicicleta", spr_retratoFelipe, 1, "Felipe");
+		ds_grid_add_text("Nossa, que merda", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Já sei, eu te levo para casa", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Não vai ser um problema mano??", spr_retratoFelipe,1, "Felipe");
+		ds_grid_add_text("Não, tá tudo bem, fica em paz", spr_retrato, 0, "Roberto");
 		
 	break;
 }
