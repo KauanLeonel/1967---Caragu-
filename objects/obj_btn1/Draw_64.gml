@@ -8,12 +8,12 @@ y1 = 380 + sprh; //Pega a posição y do botão
 draw_set_color(c_black);
 
 //DESENHAR A SPRITE
-draw_sprite_ext(spr_btn1, 0, x1, y1, bscale1, bscale1, 0, c_white, balpha1); //Botão iniciar
-draw_text(670, 432, "INICIAR"); //Texto1
-draw_sprite_ext(spr_btn1, 0, x1, y1 + 100, bscale2, bscale2, 0, c_white, balpha2); //Botão créditos
-draw_text(670, 532, "CREDITOS"); //Texto1
-draw_sprite_ext(spr_btn1, 0, x1, y1 + 200, bscale3, bscale3, 0, c_white, balpha3); //Botão sair
-draw_text(680, 632, "SAIR"); //Texto1
+draw_sprite_ext(spr_botao_solto_1_, 0, x1, y1, bscale1, bscale1, 0, c_white, balpha1); //Botão iniciar
+draw_text(670, 450, "INICIAR"); //Texto1
+draw_sprite_ext(spr_botao_solto_1_, 0, x1, y1 + 100, bscale2, bscale2, 0, c_white, balpha2); //Botão créditos
+draw_text(670, 550, "CREDITOS"); //Texto1
+draw_sprite_ext(spr_botao_solto_1_, 0, x1, y1 + 200, bscale3, bscale3, 0, c_white, balpha3); //Botão sair
+draw_text(680, 650, "SAIR"); //Texto1
 
 
 //VERIFICAR SE O MOUSE ESTÁ EM CIMA

@@ -21,6 +21,6 @@ if (fading_out) {
         fading_out = false;
         
         // Muda para a próxima sala após o fade out completar
-        room_goto(Room_quarto); // Ou room_goto(ROOM_NAME); para uma sala específica
+        room_goto(room1); // Ou room_goto(ROOM_NAME); para uma sala específica
     }
 }

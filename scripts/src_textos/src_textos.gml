@@ -134,6 +134,7 @@ function src_textos(){
 		ds_grid_add_text("Não vai ser um problema mano??", spr_retratoFelipe,1, "Felipe");
 		ds_grid_add_text("Não, tá tudo bem, fica em paz", spr_retrato, 0, "Roberto");
 		
+		
 	break;
 }
 

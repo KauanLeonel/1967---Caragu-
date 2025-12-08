@@ -36,8 +36,11 @@ if (life > 0){
 		ivul--;
 	}
 }else{
-	image_index = 1;
+	sprite_index = spr_robs_caindo;
+	image_xscale = 12;
+	image_yscale = 12;
 	x = lerp(x, 500, 0.05);
+	
 	
 	alarm[1] = room_speed * 3; 
 }
