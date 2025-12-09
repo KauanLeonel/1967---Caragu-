@@ -20,10 +20,13 @@ if (texto_grid[# Infos.Lado, pagina] == 0) {
     draw_sprite_ext(_sprite, 0, 680, -10, 1, 1, 0, c_white, 1);
 }
 // Fundo do diálogo
-draw_rectangle_color(_xx, _yy, guil, guia, _c, _c, _c, _c, false);
+draw_sprite_ext(spr_botao_solto_1_, 0, _xx, _yy + 20, 15, 4, 0, c_white, 1);
+
+//draw_rectangle_color(_xx, _yy - 50, guil /6, guia, _c, _c, _c, _c, false);
+//draw_rectangle_color(_xx, _yy, guil, guia, _c, _c, _c, _c, false);
 draw_set_color(c_white);
 // Nome do personagem
-draw_text(_xx + 16, _yy - 32, texto_grid[# Infos.Nome, pagina]);
+draw_text(_xx + 32, _yy - 32, texto_grid[# Infos.Nome, pagina]);
 
 // Texto
 draw_text_ext(_xx + 32, _yy + 32, texto_grid[# Infos.Texto, pagina], 32, guil - 64);

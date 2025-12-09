@@ -1,12 +1,12 @@
 // Configura a cor de desenho para preto
-draw_set_color(c_white);
+draw_set_color(c_black);
 
 // Configura a opacidade para o valor atual de alpha
 draw_set_alpha(alpha);
 
 // Desenha um retângulo que cobre toda a tela
-draw_rectangle(0, 0, display_get_width(), display_get_height(), false);
-
+draw_rectangle(0, 0, display_get_width() + 500, display_get_height(), false);
+draw_set_color(c_white);
 // Restaura a opacidade padrão para futuros desenhos
 draw_set_alpha(1);
 

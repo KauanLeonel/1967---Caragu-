@@ -20,7 +20,7 @@ switch (array_length(global.missoes[0])){
     string(global.missoes[0][0]));
 		break;
 	case 3: 
-		draw_text(xx, yy, global.missoes[0][0] + " " + string(global.missoes[0][1]) + "/" + string(global.missoes[0][2]));
+		draw_text(xx, yy - 6, global.missoes[0][0] + " " + string(global.missoes[0][1]) + "/" + string(global.missoes[0][2]));
 		
 }
 }}

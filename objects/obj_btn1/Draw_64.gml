@@ -1,61 +1,69 @@
-//DEFINIR VARS
-var mx = device_mouse_x_to_gui(0); //Pega constamente a posição x do mouse
-var my = device_mouse_y_to_gui(0);// Mesama coisa, só que com o y
-var sprw = sprite_get_width(spr_btn1); //Pega a largura da sprite
-var sprh = sprite_get_height(spr_btn1); //Pega a altura da sprite
-x1 = 500 + sprw; //Pega a posição do botão
-y1 = 380 + sprh; //Pega a posição y do botão
-draw_set_color(c_black);
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
 
-//DESENHAR A SPRITE
-draw_sprite_ext(spr_botao_solto_1_, 0, x1, y1, bscale1, bscale1, 0, c_white, balpha1); //Botão iniciar
-draw_text(670, 450, "INICIAR"); //Texto1
-draw_sprite_ext(spr_botao_solto_1_, 0, x1, y1 + 100, bscale2, bscale2, 0, c_white, balpha2); //Botão créditos
-draw_text(670, 550, "CREDITOS"); //Texto1
-draw_sprite_ext(spr_botao_solto_1_, 0, x1, y1 + 200, bscale3, bscale3, 0, c_white, balpha3); //Botão sair
-draw_text(680, 650, "SAIR"); //Texto1
+// Informação base dos botões
+var sprw = sprite_get_width(spr_btn1) * 0.5;
+var sprh = sprite_get_height(spr_btn1) * 0.5;
+
+var texts = ["INICIAR", "CONFIGURAÇÕES", "CRÉDITOS", "SAIR"];
+draw_set_font(ftn_menu);
+for (var i = 0; i < 4; i++)
+{
+    var bx = btn_x + 200;
+    var by = btn_y + (i * btn_spacing) + 50;
+
+    // Desenhar sprite
+    draw_sprite_ext(spr_botao_solto_1_, 0, bx, by, bscale[i], bscale[i], 0, c_white, balpha[i]);
+
+    // Desenhar texto
+    var text = texts[i];
+
+// Medir tamanho do texto
+var tw = string_width(text);
+var th = string_height(text) - 30;
+
+// Centralizar texto baseado na posição do botão (bx, by)
+var tx = bx - tw * 0.5;  
+var ty = by - th * 0.5;  
+
+draw_text(tx, ty, text);
 
 
-//VERIFICAR SE O MOUSE ESTÁ EM CIMA
-//BOTÃO 1
-if point_in_rectangle(mx, my, x1 - sprw, y1 - sprh, x1 + sprw, y1+ sprh){ //Se o mouse está em cima do botão
-	balpha1 = 1; //Faz ele ficar sem transparência
-	bscale1 = lerp(bscale1, 1.2, 0.08); //Aumenta a escala
-	//O lerp serve para fazer uma transição suave
-	
-	if mouse_check_button_pressed(mb_left){ //Se a pessoa clicou com o botão direito
-		instance_create_layer(0,0, "Instances", obj_fade);
-		room_goto(Room_quarto)
-		}
-} else{
-	bscale1 = lerp(bscale1, 1, 0.08);
-	balpha1 = 0.6;
-}
+    // Área do mouse
+    var hover = point_in_rectangle(mx, my, bx - sprw, by - sprh, bx + sprw, by + sprh);
 
-//BOTÃO 2
-if point_in_rectangle(mx, my, x1 - sprw, y1 - sprh + 100, x1 + sprw, y1+ sprh + 100){ //Se o mouse está em cima do botão
-	balpha2 = 1; //Faz ele ficar sem transparência
-	bscale2 = lerp(bscale2, 1.2, 0.08); //Aumenta a escala
-	//O lerp serve para fazer uma transição suave
-	
-	if mouse_check_button_pressed(mb_left){ //Se a pessoa clicou com o botão direito
-		show_question("oi"); //Mostrar um oi
-		}
-} else{
-	bscale2 = lerp(bscale2, 1, 0.08);
-	balpha2 = 0.6;
-}
+    if (hover)
+    {
+        balpha[i] = 1;
+        bscale[i] = lerp(bscale[i], 1.2, 0.08);
+		
+        if (mouse_check_button_pressed(mb_left))
+        {
+            switch (i)
+            {
+                case 0: // INICIAR
+                    instance_create_layer(0,0,"Fade",obj_fade);
+             
+                break;
 
-//BOTÃO 3
-if point_in_rectangle(mx, my, x1 - sprw, y1 - sprh + 200, x1 + sprw, y1+ sprh + 200){ //Se o mouse está em cima do botão
-	balpha3 = 1; //Faz ele ficar sem transparência
-	bscale3 = lerp(bscale3, 1.2, 0.08); //Aumenta a escala
-	//O lerp serve para fazer uma transição suave
-	
-	if mouse_check_button_pressed(mb_left){ //Se a pessoa clicou com o botão direito
-		game_end();
-		}
-} else{
-	bscale3 = lerp(bscale3, 1, 0.08);
-	balpha3 = 0.6;
+                case 1: // CONFIGURAÇÕES
+                    // Coloque a ação aqui
+                break;
+
+                case 2: // CRÉDITOS
+                    // Coloque a ação aqui
+                break;
+
+                case 3: // SAIR
+                    game_end();
+                break;
+            }
+        }
+
+    }
+    else
+    {
+        bscale[i] = lerp(bscale[i], 1, 0.08);
+        balpha[i] = 0.6;
+    }
 }
