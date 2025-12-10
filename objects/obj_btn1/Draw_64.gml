@@ -50,7 +50,8 @@ draw_text(tx, ty, text);
                 break;
 
                 case 1: // CONFIGURAÇÕES
-                    // Coloque a ação aqui
+					instance_create_layer(x, y, "Instances", obj_interface_audio)
+                    instance_destroy();
                 break;
 
                 case 2: // CRÉDITOS

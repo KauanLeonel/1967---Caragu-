@@ -32,6 +32,7 @@
     {"$GMFolder":"","%Name":"Cutscenes","folderPath":"folders/Objetos/Cutscenes.yy","name":"Cutscenes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Dialogo","folderPath":"folders/Objetos/Dialogo.yy","name":"Dialogo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Effects","folderPath":"folders/Objetos/Effects.yy","name":"Effects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Áudio","folderPath":"folders/Objetos/Áudio.yy","name":"Áudio","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Itens","folderPath":"folders/Objetos/Itens.yy","name":"Itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"NPCs","folderPath":"folders/Objetos/NPCs.yy","name":"NPCs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Objetos/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -73,7 +74,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"1967 - Caragua",
   "resources":[
@@ -100,6 +101,7 @@
     {"id":{"name":"obj_felipe","path":"objects/obj_felipe/obj_felipe.yy",},},
     {"id":{"name":"obj_flor","path":"objects/obj_flor/obj_flor.yy",},},
     {"id":{"name":"obj_inicializador","path":"objects/obj_inicializador/obj_inicializador.yy",},},
+    {"id":{"name":"obj_interface_audio","path":"objects/obj_interface_audio/obj_interface_audio.yy",},},
     {"id":{"name":"obj_item_pai","path":"objects/obj_item_pai/obj_item_pai.yy",},},
     {"id":{"name":"obj_mae","path":"objects/obj_mae/obj_mae.yy",},},
     {"id":{"name":"obj_mochila","path":"objects/obj_mochila/obj_mochila.yy",},},
