@@ -11,5 +11,5 @@ life = 3;
 //tempo de ivulnerabilidade
 ivul = 0;
 
-window_set_fullscreen(false);
+window_set_fullscreen(true);
 contador = 0;

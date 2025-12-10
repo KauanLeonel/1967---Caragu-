@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_flor",
+  "%Name":"obj_escolha",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_flor",
+  "name":"obj_escolha",
   "overriddenProperties":[],
   "parent":{
-    "name":"Itens",
-    "path":"folders/Objetos/Itens.yy",
+    "name":"Dialogo",
+    "path":"folders/Objetos/Dialogo.yy",
   },
-  "parentObjectId":{
-    "name":"obj_item_pai",
-    "path":"objects/obj_item_pai/obj_item_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bromelia",
-    "path":"sprites/spr_bromelia/spr_bromelia.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

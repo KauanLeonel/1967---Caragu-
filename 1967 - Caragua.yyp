@@ -73,7 +73,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"1967 - Caragua",
   "resources":[
@@ -95,6 +95,7 @@
     {"id":{"name":"obj_cutscene","path":"objects/obj_cutscene/obj_cutscene.yy",},},
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
     {"id":{"name":"obj_doors","path":"objects/obj_doors/obj_doors.yy",},},
+    {"id":{"name":"obj_escolha","path":"objects/obj_escolha/obj_escolha.yy",},},
     {"id":{"name":"obj_fade","path":"objects/obj_fade/obj_fade.yy",},},
     {"id":{"name":"obj_felipe","path":"objects/obj_felipe/obj_felipe.yy",},},
     {"id":{"name":"obj_flor","path":"objects/obj_flor/obj_flor.yy",},},

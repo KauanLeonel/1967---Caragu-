@@ -5,7 +5,9 @@ var my = device_mouse_y_to_gui(0);
 var sprw = sprite_get_width(spr_btn1) * 0.5;
 var sprh = sprite_get_height(spr_btn1) * 0.5;
 
-var texts = ["INICIAR", "CONFIGURAÇÕES", "CRÉDITOS", "SAIR"];
+
+
+
 draw_set_font(ftn_menu);
 for (var i = 0; i < 4; i++)
 {
@@ -42,8 +44,9 @@ draw_text(tx, ty, text);
             switch (i)
             {
                 case 0: // INICIAR
+					if(jogar== 1)
                     instance_create_layer(0,0,"Fade",obj_fade);
-             
+					else jogar = 1;
                 break;
 
                 case 1: // CONFIGURAÇÕES
@@ -55,7 +58,10 @@ draw_text(tx, ty, text);
                 break;
 
                 case 3: // SAIR
+				if(jogar == 0)
                     game_end();
+				else
+					jogar = 0
                 break;
             }
         }

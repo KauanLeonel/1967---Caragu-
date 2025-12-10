@@ -82,11 +82,18 @@ function src_textos(){
 	break;
 	
 		case "flor":
-		
-		ds_grid_add_text("Essa é para você… boboca.", spr_retrato, 0, "Roberto");
-		ds_grid_add_text("Obrigada…", spr_retratoAna, 1, "Ana");
-		instance_destroy(obj_flor);
+		var esc = instance_create_layer(x, y, "Instances", obj_escolha)
+		esc.escolha = ["Entregar", "Não entregar"]
+	
 	break;
+	case "Não entregar":
+			ds_grid_add_text("Esquece...", spr_retrato, 0, "Roberto");
+
+		break;
+		case "Entregar":
+			ds_grid_add_text("Essa é para você… boboca.", spr_retrato, 0, "Roberto");
+		ds_grid_add_text("Obrigada…", spr_retratoAna, 1, "Ana");
+		break;
 	
 		case "ana2":
 		
@@ -119,7 +126,7 @@ function src_textos(){
 		ds_grid_add_text("Coisas para estudar", spr_retrato, 0, "Roberto");
 	break;
 	case "ana3":
-		ds_grid_add_text("Chegamos à escola!!!", spr_retratoAna, 0, "Ana");
+		ds_grid_add_text("Chegamos à escola!!!", spr_retratoAna, 1, "Ana");
 		draw_sprite(spr_felipe, 0, x + 100, y + 100);
 		ds_grid_add_text("FELIPE...", spr_retrato, 0, "Roberto");
 	
@@ -135,6 +142,10 @@ function src_textos(){
 		ds_grid_add_text("Não, tá tudo bem, fica em paz", spr_retrato, 0, "Roberto");
 		
 		
+	break;
+	
+	default:
+		ds_grid_add_text("...", spr_retrato, 0, "Roberto");
 	break;
 }
 

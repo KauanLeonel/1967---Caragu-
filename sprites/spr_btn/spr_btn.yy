@@ -3,9 +3,9 @@
   "%Name":"spr_btn",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":0,
+  "bbox_left":1,
   "bbox_right":31,
-  "bbox_top":0,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -16,14 +16,15 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":33,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"e5ee563b-563a-43d3-a2c2-84b084adaa7d","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"e5ee563b-563a-43d3-a2c2-84b084adaa7d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"58aae0f3-ce52-498f-9894-b1d4f2464ab7","blendMode":0,"displayName":"default","isLocked":false,"name":"58aae0f3-ce52-498f-9894-b1d4f2464ab7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_btn",
   "nineSlice":null,
-  "origin":0,
+  "origin":2,
   "parent":{
     "name":"Botões",
     "path":"folders/Sprites/Botões.yy",
@@ -70,12 +71,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab286d84-bfe1-4392-9143-3a6c56be3f31","path":"sprites/spr_btn/spr_btn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c85bfd9b-c3c0-4543-9e2b-be0970395848","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab286d84-bfe1-4392-9143-3a6c56be3f31","path":"sprites/spr_btn/spr_btn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c85bfd9b-c3c0-4543-9e2b-be0970395848","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":33,
     "yorigin":0,
   },
   "swatchColours":null,
@@ -86,5 +89,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":33,
 }
